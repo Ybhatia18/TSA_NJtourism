@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFDB39F2BA22EB200812A67 /* TSA_NJtourismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB39E2BA22EB200812A67 /* TSA_NJtourismApp.swift */; };
+		ACFDB3A12BA22EB200812A67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3A02BA22EB200812A67 /* ContentView.swift */; };
+		ACFDB3A32BA22EB300812A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDB3A22BA22EB300812A67 /* Assets.xcassets */; };
+		ACFDB3A62BA22EB300812A67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDB3A52BA22EB300812A67 /* Preview Assets.xcassets */; };
+		ACFDB3B02BA22EB400812A67 /* TSA_NJtourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3AF2BA22EB400812A67 /* TSA_NJtourismTests.swift */; };
+		ACFDB3BA2BA22EB400812A67 /* TSA_NJtourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3B92BA22EB400812A67 /* TSA_NJtourismUITests.swift */; };
+		ACFDB3BC2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3BB2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFDB3AC2BA22EB400812A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFDB3932BA22EB200812A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFDB39A2BA22EB200812A67;
+			remoteInfo = TSA_NJtourism;
+		};
+		ACFDB3B62BA22EB400812A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFDB3932BA22EB200812A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFDB39A2BA22EB200812A67;
+			remoteInfo = TSA_NJtourism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACFDB39B2BA22EB200812A67 /* TSA_NJtourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSA_NJtourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDB39E2BA22EB200812A67 /* TSA_NJtourismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismApp.swift; sourceTree = "<group>"; };
+		ACFDB3A02BA22EB200812A67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACFDB3A22BA22EB300812A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFDB3A52BA22EB300812A67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACFDB3AB2BA22EB400812A67 /* TSA_NJtourismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSA_NJtourismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDB3AF2BA22EB400812A67 /* TSA_NJtourismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismTests.swift; sourceTree = "<group>"; };
+		ACFDB3B52BA22EB400812A67 /* TSA_NJtourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSA_NJtourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDB3B92BA22EB400812A67 /* TSA_NJtourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismUITests.swift; sourceTree = "<group>"; };
+		ACFDB3BB2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFDB3982BA22EB200812A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3A82BA22EB400812A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3B22BA22EB400812A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFDB3922BA22EB200812A67 = {
+			isa = PBXGroup;
+			children = (
+				ACFDB39D2BA22EB200812A67 /* TSA_NJtourism */,
+				ACFDB3AE2BA22EB400812A67 /* TSA_NJtourismTests */,
+				ACFDB3B82BA22EB400812A67 /* TSA_NJtourismUITests */,
+				ACFDB39C2BA22EB200812A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFDB39C2BA22EB200812A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDB39B2BA22EB200812A67 /* TSA_NJtourism.app */,
+				ACFDB3AB2BA22EB400812A67 /* TSA_NJtourismTests.xctest */,
+				ACFDB3B52BA22EB400812A67 /* TSA_NJtourismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFDB39D2BA22EB200812A67 /* TSA_NJtourism */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDB39E2BA22EB200812A67 /* TSA_NJtourismApp.swift */,
+				ACFDB3A02BA22EB200812A67 /* ContentView.swift */,
+				ACFDB3A22BA22EB300812A67 /* Assets.xcassets */,
+				ACFDB3A42BA22EB300812A67 /* Preview Content */,
+			);
+			path = TSA_NJtourism;
+			sourceTree = "<group>";
+		};
+		ACFDB3A42BA22EB300812A67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDB3A52BA22EB300812A67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACFDB3AE2BA22EB400812A67 /* TSA_NJtourismTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDB3AF2BA22EB400812A67 /* TSA_NJtourismTests.swift */,
+			);
+			path = TSA_NJtourismTests;
+			sourceTree = "<group>";
+		};
+		ACFDB3B82BA22EB400812A67 /* TSA_NJtourismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDB3B92BA22EB400812A67 /* TSA_NJtourismUITests.swift */,
+				ACFDB3BB2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift */,
+			);
+			path = TSA_NJtourismUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFDB39A2BA22EB200812A67 /* TSA_NJtourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFDB3BF2BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourism" */;
+			buildPhases = (
+				ACFDB3972BA22EB200812A67 /* Sources */,
+				ACFDB3982BA22EB200812A67 /* Frameworks */,
+				ACFDB3992BA22EB200812A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSA_NJtourism;
+			productName = TSA_NJtourism;
+			productReference = ACFDB39B2BA22EB200812A67 /* TSA_NJtourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFDB3AA2BA22EB400812A67 /* TSA_NJtourismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFDB3C22BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourismTests" */;
+			buildPhases = (
+				ACFDB3A72BA22EB400812A67 /* Sources */,
+				ACFDB3A82BA22EB400812A67 /* Frameworks */,
+				ACFDB3A92BA22EB400812A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFDB3AD2BA22EB400812A67 /* PBXTargetDependency */,
+			);
+			name = TSA_NJtourismTests;
+			productName = TSA_NJtourismTests;
+			productReference = ACFDB3AB2BA22EB400812A67 /* TSA_NJtourismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFDB3B42BA22EB400812A67 /* TSA_NJtourismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFDB3C52BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourismUITests" */;
+			buildPhases = (
+				ACFDB3B12BA22EB400812A67 /* Sources */,
+				ACFDB3B22BA22EB400812A67 /* Frameworks */,
+				ACFDB3B32BA22EB400812A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFDB3B72BA22EB400812A67 /* PBXTargetDependency */,
+			);
+			name = TSA_NJtourismUITests;
+			productName = TSA_NJtourismUITests;
+			productReference = ACFDB3B52BA22EB400812A67 /* TSA_NJtourismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFDB3932BA22EB200812A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ACFDB39A2BA22EB200812A67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ACFDB3AA2BA22EB400812A67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ACFDB39A2BA22EB200812A67;
+					};
+					ACFDB3B42BA22EB400812A67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ACFDB39A2BA22EB200812A67;
+					};
+				};
+			};
+			buildConfigurationList = ACFDB3962BA22EB200812A67 /* Build configuration list for PBXProject "TSA_NJtourism" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFDB3922BA22EB200812A67;
+			productRefGroup = ACFDB39C2BA22EB200812A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFDB39A2BA22EB200812A67 /* TSA_NJtourism */,
+				ACFDB3AA2BA22EB400812A67 /* TSA_NJtourismTests */,
+				ACFDB3B42BA22EB400812A67 /* TSA_NJtourismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFDB3992BA22EB200812A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFDB3A62BA22EB300812A67 /* Preview Assets.xcassets in Resources */,
+				ACFDB3A32BA22EB300812A67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3A92BA22EB400812A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3B32BA22EB400812A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFDB3972BA22EB200812A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFDB3A12BA22EB200812A67 /* ContentView.swift in Sources */,
+				ACFDB39F2BA22EB200812A67 /* TSA_NJtourismApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3A72BA22EB400812A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFDB3B02BA22EB400812A67 /* TSA_NJtourismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDB3B12BA22EB400812A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFDB3BA2BA22EB400812A67 /* TSA_NJtourismUITests.swift in Sources */,
+				ACFDB3BC2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFDB3AD2BA22EB400812A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFDB39A2BA22EB200812A67 /* TSA_NJtourism */;
+			targetProxy = ACFDB3AC2BA22EB400812A67 /* PBXContainerItemProxy */;
+		};
+		ACFDB3B72BA22EB400812A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFDB39A2BA22EB200812A67 /* TSA_NJtourism */;
+			targetProxy = ACFDB3B62BA22EB400812A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACFDB3BD2BA22EB400812A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFDB3BE2BA22EB400812A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFDB3C02BA22EB400812A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TSA_NJtourism/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFDB3C12BA22EB400812A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TSA_NJtourism/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACFDB3C32BA22EB400812A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourismTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA_NJtourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TSA_NJtourism";
+			};
+			name = Debug;
+		};
+		ACFDB3C42BA22EB400812A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourismTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA_NJtourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TSA_NJtourism";
+			};
+			name = Release;
+		};
+		ACFDB3C62BA22EB400812A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourismUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSA_NJtourism;
+			};
+			name = Debug;
+		};
+		ACFDB3C72BA22EB400812A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ybha.TSA-NJtourismUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TSA_NJtourism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFDB3962BA22EB200812A67 /* Build configuration list for PBXProject "TSA_NJtourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFDB3BD2BA22EB400812A67 /* Debug */,
+				ACFDB3BE2BA22EB400812A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFDB3BF2BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFDB3C02BA22EB400812A67 /* Debug */,
+				ACFDB3C12BA22EB400812A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFDB3C22BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFDB3C32BA22EB400812A67 /* Debug */,
+				ACFDB3C42BA22EB400812A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFDB3C52BA22EB400812A67 /* Build configuration list for PBXNativeTarget "TSA_NJtourismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFDB3C62BA22EB400812A67 /* Debug */,
+				ACFDB3C72BA22EB400812A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFDB3932BA22EB200812A67 /* Project object */;
+}
