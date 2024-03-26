@@ -6,19 +6,10 @@
 //
 
 import SwiftUI
-
+import MapKit
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "sun.max.fill")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("NJ")
-            Button("Buttonhhh") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            }
-        }
-        .padding()
+        Map()
     }
 }
 
