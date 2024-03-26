@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "sun.max.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("no ")
+            Text("nojjjj ")
         }
         .padding()
     }
