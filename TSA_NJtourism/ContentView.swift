@@ -13,8 +13,10 @@ struct ContentView: View {
             Image(systemName: "sun.max.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("NJhhh")
-            
+            Text("NJ")
+            Button("Buttonhhh") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
         }
         .padding()
     }
