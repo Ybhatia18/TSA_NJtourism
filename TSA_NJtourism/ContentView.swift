@@ -8,12 +8,12 @@
  > Duke Farms
  > Columbus Park
  > Hoboken Shoreline
- > dWashington Rock
- > Albert Einsteins
+ > Washington Rock
+ > Albert Einstein's House
  > American Dream Mall
  > Six Flags
  > Atlantic City
- > Supercharged
+ > Supercharged Entertainment
  > Liberty Science Center
  > Trenton Capital Building
  */
@@ -25,6 +25,27 @@ import MapKit
 struct ContentView: View {
     var body: some View {
         Map()
+        
+        NavigationView {
+            VStack {
+                NavigationLink(destination: LibertyScienceCenter()){
+                    Text("Liberty Science Center")
+                    Image("Liberty Science Center")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 40)
+                }
+            }
+        }
+        /*Button(action: {
+            // Open page of Location
+            
+        }, label: {
+            Image("Liberty Science Center")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 40)
+        })*/
     }
 }
 

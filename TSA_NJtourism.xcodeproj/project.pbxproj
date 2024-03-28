@@ -14,6 +14,17 @@
 		ACFDB3B02BA22EB400812A67 /* TSA_NJtourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3AF2BA22EB400812A67 /* TSA_NJtourismTests.swift */; };
 		ACFDB3BA2BA22EB400812A67 /* TSA_NJtourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3B92BA22EB400812A67 /* TSA_NJtourismUITests.swift */; };
 		ACFDB3BC2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDB3BB2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift */; };
+		EFC5DEF62BB4AD2100767271 /* LibertyScienceCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DEF52BB4AD2100767271 /* LibertyScienceCenter.swift */; };
+		EFC5DEFA2BB4B0C800767271 /* ColombusPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DEF92BB4B0C800767271 /* ColombusPark.swift */; };
+		EFC5DEFE2BB4B12D00767271 /* WashingtonRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DEFD2BB4B12D00767271 /* WashingtonRock.swift */; };
+		EFC5DF002BB4B17600767271 /* DukeFarms.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DEFF2BB4B17600767271 /* DukeFarms.swift */; };
+		EFC5DF022BB4B1A700767271 /* AlbertEintsteinHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF012BB4B1A700767271 /* AlbertEintsteinHouse.swift */; };
+		EFC5DF042BB4B1D700767271 /* AmericanDreamMall.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF032BB4B1D700767271 /* AmericanDreamMall.swift */; };
+		EFC5DF062BB4B1F200767271 /* SixFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF052BB4B1F200767271 /* SixFlags.swift */; };
+		EFC5DF082BB4B20B00767271 /* AtlanticCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF072BB4B20B00767271 /* AtlanticCity.swift */; };
+		EFC5DF0A2BB4B23E00767271 /* Supercharged Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF092BB4B23E00767271 /* Supercharged Entertainment.swift */; };
+		EFC5DF0C2BB4B28A00767271 /* HobokenShoreline.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF0B2BB4B28A00767271 /* HobokenShoreline.swift */; };
+		EFC5DF0E2BB4B2C300767271 /* TrentonCapitolBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5DF0D2BB4B2C300767271 /* TrentonCapitolBuilding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		ACFDB3B52BA22EB400812A67 /* TSA_NJtourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSA_NJtourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFDB3B92BA22EB400812A67 /* TSA_NJtourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismUITests.swift; sourceTree = "<group>"; };
 		ACFDB3BB2BA22EB400812A67 /* TSA_NJtourismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_NJtourismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFC5DEF52BB4AD2100767271 /* LibertyScienceCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibertyScienceCenter.swift; sourceTree = "<group>"; };
+		EFC5DEF92BB4B0C800767271 /* ColombusPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColombusPark.swift; sourceTree = "<group>"; };
+		EFC5DEFD2BB4B12D00767271 /* WashingtonRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonRock.swift; sourceTree = "<group>"; };
+		EFC5DEFF2BB4B17600767271 /* DukeFarms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukeFarms.swift; sourceTree = "<group>"; };
+		EFC5DF012BB4B1A700767271 /* AlbertEintsteinHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertEintsteinHouse.swift; sourceTree = "<group>"; };
+		EFC5DF032BB4B1D700767271 /* AmericanDreamMall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanDreamMall.swift; sourceTree = "<group>"; };
+		EFC5DF052BB4B1F200767271 /* SixFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixFlags.swift; sourceTree = "<group>"; };
+		EFC5DF072BB4B20B00767271 /* AtlanticCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlanticCity.swift; sourceTree = "<group>"; };
+		EFC5DF092BB4B23E00767271 /* Supercharged Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Supercharged Entertainment.swift"; sourceTree = "<group>"; };
+		EFC5DF0B2BB4B28A00767271 /* HobokenShoreline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobokenShoreline.swift; sourceTree = "<group>"; };
+		EFC5DF0D2BB4B2C300767271 /* TrentonCapitolBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrentonCapitolBuilding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,17 @@
 			children = (
 				ACFDB39E2BA22EB200812A67 /* TSA_NJtourismApp.swift */,
 				ACFDB3A02BA22EB200812A67 /* ContentView.swift */,
+				EFC5DF0D2BB4B2C300767271 /* TrentonCapitolBuilding.swift */,
+				EFC5DF092BB4B23E00767271 /* Supercharged Entertainment.swift */,
+				EFC5DF072BB4B20B00767271 /* AtlanticCity.swift */,
+				EFC5DF052BB4B1F200767271 /* SixFlags.swift */,
+				EFC5DF032BB4B1D700767271 /* AmericanDreamMall.swift */,
+				EFC5DF012BB4B1A700767271 /* AlbertEintsteinHouse.swift */,
+				EFC5DEFF2BB4B17600767271 /* DukeFarms.swift */,
+				EFC5DEFD2BB4B12D00767271 /* WashingtonRock.swift */,
+				EFC5DEF92BB4B0C800767271 /* ColombusPark.swift */,
+				EFC5DEF52BB4AD2100767271 /* LibertyScienceCenter.swift */,
+				EFC5DF0B2BB4B28A00767271 /* HobokenShoreline.swift */,
 				ACFDB3A22BA22EB300812A67 /* Assets.xcassets */,
 				ACFDB3A42BA22EB300812A67 /* Preview Content */,
 			);
@@ -258,7 +291,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFDB3A12BA22EB200812A67 /* ContentView.swift in Sources */,
+				EFC5DEFE2BB4B12D00767271 /* WashingtonRock.swift in Sources */,
+				EFC5DEF62BB4AD2100767271 /* LibertyScienceCenter.swift in Sources */,
+				EFC5DF0A2BB4B23E00767271 /* Supercharged Entertainment.swift in Sources */,
+				EFC5DF062BB4B1F200767271 /* SixFlags.swift in Sources */,
+				EFC5DF082BB4B20B00767271 /* AtlanticCity.swift in Sources */,
 				ACFDB39F2BA22EB200812A67 /* TSA_NJtourismApp.swift in Sources */,
+				EFC5DEFA2BB4B0C800767271 /* ColombusPark.swift in Sources */,
+				EFC5DF0E2BB4B2C300767271 /* TrentonCapitolBuilding.swift in Sources */,
+				EFC5DF0C2BB4B28A00767271 /* HobokenShoreline.swift in Sources */,
+				EFC5DF042BB4B1D700767271 /* AmericanDreamMall.swift in Sources */,
+				EFC5DF022BB4B1A700767271 /* AlbertEintsteinHouse.swift in Sources */,
+				EFC5DF002BB4B17600767271 /* DukeFarms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

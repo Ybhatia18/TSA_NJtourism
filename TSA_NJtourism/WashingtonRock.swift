@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct WashingtonRock: View {
+    public let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State private var selection = 0
+    let imgs = ["Washington Rock", "Washington Rock2", "Washington Rock3", "Washington Rock4", "Washington Rock5"]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            TabView(selection: $selection) {
+                ForEach(0..<5){ i in
+                    Image("\(imgs[i])").resizable().ignoresSafeArea()
+                }
+            }.tabViewStyle(PageTabViewStyle())
+                .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+                .onReceive(timer, perform: {_ in
+                    withAnimation{
+                        selection = selection < 5 ? selection + 1 : 0
+                    }
+                })
+        }.ignoresSafeArea()
     }
 }
 
